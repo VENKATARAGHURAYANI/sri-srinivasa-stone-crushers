@@ -4,8 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sri Srinivasa Stone Crushers | Chimakurthy</title>
-
+<title>Sri Srinivasa Stone Crushers | Premium Website</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
@@ -14,34 +13,55 @@ body{font-family:'Poppins',sans-serif;background:#050711;color:#fff;line-height:
 header{background:#0b1220;padding:18px 0;position:sticky;top:0;z-index:999}
 .container{max-width:1200px;margin:auto;padding:0 20px}
 nav{display:flex;justify-content:space-between;align-items:center}
-.logo{font-size:22px;font-weight:700;color:#d4af37}
-nav a{color:#fff;margin-left:20px;text-decoration:none}
-.hero{padding:90px 20px;text-align:center;background:linear-gradient(to bottom,#111827,#050711)}
-.hero h1{font-size:52px;margin-bottom:20px;color:#d4af37}
-.hero p{max-width:850px;margin:auto;font-size:18px;color:#ddd}
-.btn{display:inline-block;margin-top:30px;padding:14px 28px;background:#d4af37;color:#111;font-weight:bold;border-radius:40px;text-decoration:none}
-.section{padding:70px 20px}
-.section h2{text-align:center;margin-bottom:40px;font-size:38px;color:#d4af37}
+.logo{font-size:24px;font-weight:700;color:#d4af37}
+nav a{color:#fff;text-decoration:none;margin-left:20px}
+.hero{padding:100px 20px;text-align:center;background:linear-gradient(to bottom,#111827,#050711)}
+.hero h1{font-size:52px;color:#d4af37;margin-bottom:20px}
+.hero p{max-width:850px;margin:auto;color:#ddd;font-size:18px}
+.btn{display:inline-block;padding:14px 28px;background:#d4af37;color:#111;border-radius:40px;text-decoration:none;font-weight:bold;margin-top:20px}
+.section{padding:80px 20px}
+.section h2{text-align:center;color:#d4af37;font-size:40px;margin-bottom:40px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
 .card{background:#111827;padding:25px;border-radius:18px;box-shadow:0 0 15px rgba(0,0,0,0.4)}
-.card h3{margin-bottom:15px;color:#d4af37}
+.card h3{color:#d4af37;margin-bottom:15px}
 .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.gallery div{height:180px;background:#1f2937;display:flex;justify-content:center;align-items:center;border-radius:15px;color:#ccc;font-weight:bold}
-.contact-box{background:#111827;padding:35px;border-radius:18px;max-width:800px;margin:auto}
-form{display:grid;gap:16px}
-input,textarea{padding:14px;border:none;border-radius:12px;background:#1f2937;color:white}
+.gallery div{height:180px;background:#1f2937;border-radius:15px;display:flex;align-items:center;justify-content:center;color:#ccc;font-weight:bold}
+.rate-box{background:#111827;padding:25px;border-radius:18px}
+.review{background:#111827;padding:20px;border-radius:18px}
+.contact-box{background:#111827;padding:35px;border-radius:18px;max-width:900px;margin:auto}
+form{display:grid;gap:15px}
+input,textarea,select{padding:14px;border:none;border-radius:12px;background:#1f2937;color:#fff}
 button{padding:14px;border:none;border-radius:30px;background:#d4af37;font-weight:bold;cursor:pointer}
-.telugu{background:#0f172a;padding:40px;border-radius:18px}
-footer{padding:30px;text-align:center;background:#020308;color:#aaa;margin-top:40px}
-.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:16px 18px;border-radius:50%;font-size:24px;text-decoration:none}
-.map-box{margin-top:30px;border-radius:16px;overflow:hidden}
+iframe{border-radius:18px}
+footer{padding:30px;text-align:center;background:#020308;color:#aaa}
+.whatsapp,.callbtn{position:fixed;right:20px;border-radius:50%;padding:16px 18px;font-size:24px;text-decoration:none;color:white}
+.whatsapp{bottom:20px;background:#25D366}
+.callbtn{bottom:90px;background:#2563eb}
+.lang{margin-top:20px;text-align:center}
+.lang button{margin:5px;padding:10px 18px}
+#telugu{display:none}
+.loading{
+position:fixed;
+inset:0;
+background:#050711;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+font-weight:bold;
+color:#d4af37;
+z-index:9999;
+}
 @media(max-width:768px){
 .hero h1{font-size:36px}
 nav{flex-direction:column;gap:15px}
 }
 </style>
 </head>
+
 <body>
+
+<div class="loading" id="loading">Sri Srinivasa Stone Crushers</div>
 
 <header>
 <div class="container">
@@ -50,8 +70,9 @@ nav{flex-direction:column;gap:15px}
 <div>
 <a href="#about">About</a>
 <a href="#products">Products</a>
-<a href="#services">Services</a>
+<a href="#rates">Rates</a>
 <a href="#gallery">Gallery</a>
+<a href="#reviews">Reviews</a>
 <a href="#contact">Contact</a>
 </div>
 </nav>
@@ -62,14 +83,18 @@ nav{flex-direction:column;gap:15px}
 <div class="container">
 <h1>Premium Stone Aggregates & Granite Products</h1>
 <p>
-Sri Srinivasa Stone Crushers supplies high-quality stone aggregates,
-M-Sand and granite materials for roads, layouts, RMC plants and
-construction projects across Prakasam district.
+Trusted supplier of 12mm, 20mm, 40mm aggregates, M-Sand and crusher dust for roads, layouts, RMC plants and infrastructure projects.
 </p>
 
-<a class="btn" href="https://wa.me/919494903399?text=Hello%20I%20need%20stone%20aggregates" target="_blank">
+<a class="btn" href="https://wa.me/919494903399?text=Hello%20I%20need%20aggregates" target="_blank">
 WhatsApp Enquiry
 </a>
+
+<div class="lang">
+<button onclick="showEnglish()">English</button>
+<button onclick="showTelugu()">తెలుగు</button>
+</div>
+
 </div>
 </section>
 
@@ -78,13 +103,10 @@ WhatsApp Enquiry
 <h2>About Us</h2>
 
 <div class="grid">
+
 <div class="card">
 <h3>Who We Are</h3>
-<p>
-Located in Chimakurthy granite belt, Sri Srinivasa Stone Crushers
-provides durable and high-quality aggregates for infrastructure,
-roads and construction projects.
-</p>
+<p>Located in Chimakurthy granite belt, we supply high-quality aggregates and M-Sand.</p>
 </div>
 
 <div class="card">
@@ -96,6 +118,7 @@ roads and construction projects.
 <h3>Service Areas</h3>
 <p>Ongole, Chimakurthy, Martur and nearby districts.</p>
 </div>
+
 </div>
 </div>
 </section>
@@ -105,12 +128,39 @@ roads and construction projects.
 <h2>Products</h2>
 
 <div class="grid">
-<div class="card"><h3>12mm Metal</h3><p>Used for RCC works and structural concrete.</p></div>
-<div class="card"><h3>20mm Metal</h3><p>Suitable for RMC and construction projects.</p></div>
-<div class="card"><h3>40mm Metal</h3><p>Used for road works and drainage.</p></div>
-<div class="card"><h3>M-Sand</h3><p>High-quality manufactured sand.</p></div>
-<div class="card"><h3>Crusher Dust</h3><p>Ideal for construction base works.</p></div>
-<div class="card"><h3>Granite Aggregates</h3><p>Custom granite-based aggregates available.</p></div>
+
+<div class="card"><h3>12mm Metal</h3><p>For RCC works and concrete.</p></div>
+<div class="card"><h3>20mm Metal</h3><p>For RMC and structural works.</p></div>
+<div class="card"><h3>40mm Metal</h3><p>For road base and drainage.</p></div>
+<div class="card"><h3>M-Sand</h3><p>Premium manufactured sand.</p></div>
+<div class="card"><h3>Crusher Dust</h3><p>Used for pavers and filling.</p></div>
+<div class="card"><h3>Granite Aggregates</h3><p>Custom granite products available.</p></div>
+
+</div>
+</div>
+</section>
+
+<section class="section" id="rates">
+<div class="container">
+<h2>Today's Material Rates</h2>
+
+<div class="grid">
+
+<div class="rate-box">
+<h3>12mm Metal</h3>
+<p>₹ XXXX / Ton</p>
+</div>
+
+<div class="rate-box">
+<h3>20mm Metal</h3>
+<p>₹ XXXX / Ton</p>
+</div>
+
+<div class="rate-box">
+<h3>M-Sand</h3>
+<p>₹ XXXX / Ton</p>
+</div>
+
 </div>
 </div>
 </section>
@@ -118,13 +168,43 @@ roads and construction projects.
 <section class="section" id="gallery">
 <div class="container">
 <h2>Gallery</h2>
+
 <div class="gallery">
-<div>Crusher Plant</div>
-<div>Stock Yard</div>
-<div>20mm Metal</div>
-<div>40mm Metal</div>
-<div>M-Sand</div>
-<div>Tipper Loading</div>
+<div>Add Crusher Photo</div>
+<div>Add Stock Yard Photo</div>
+<div>Add Tipper Loading</div>
+<div>Add M-Sand Photo</div>
+<div>Add 20mm Metal</div>
+<div>Add Plant Video</div>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="reviews">
+<div class="container">
+<h2>Customer Reviews</h2>
+
+<div class="grid">
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>Excellent quality aggregates and timely supply.</p>
+<strong>- Contractor, Ongole</strong>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>Best stone crusher service in Chimakurthy.</p>
+<strong>- RMC Plant</strong>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>Reliable pricing and fast loading.</p>
+<strong>- Builder</strong>
+</div>
+
 </div>
 </div>
 </section>
@@ -135,8 +215,6 @@ roads and construction projects.
 <h2>Contact & Location</h2>
 
 <div class="contact-box">
-
-<h3 style="margin-bottom:15px;color:#d4af37;">Office Address</h3>
 
 <p>
 Sri Srinivasa Stone Crushers<br>
@@ -150,65 +228,98 @@ Andhra Pradesh – 523226
 ✉️ srisrinivasastonecrushers@gmail.com
 </p>
 
-<div class="map-box">
+<br>
+
 <iframe
 src="https://www.google.com/maps?q=Chimakurthy,+Prakasam,+Andhra+Pradesh&output=embed"
 width="100%"
 height="350"
-style="border:0;"
-allowfullscreen=""
 loading="lazy">
 </iframe>
-</div>
 
-<h3 style="margin-top:35px;margin-bottom:15px;color:#d4af37;">Request a Quote</h3>
+<br><br>
+
+<h3 style="color:#d4af37">Request a Quote</h3>
 
 <form action="https://formspree.io/f/xnjwogry" method="POST">
 
 <input type="text" name="name" placeholder="Your Name" required>
 <input type="tel" name="phone" placeholder="Mobile Number" required>
 <input type="text" name="location" placeholder="Site Location" required>
-<textarea name="requirements" placeholder="Requirement Details" rows="5" required></textarea>
+
+<select name="material">
+<option>12mm Metal</option>
+<option>20mm Metal</option>
+<option>40mm Metal</option>
+<option>M-Sand</option>
+<option>Crusher Dust</option>
+</select>
+
+<textarea name="requirements" placeholder="Requirement Details" rows="5"></textarea>
 
 <button type="submit">Submit Enquiry</button>
 
 </form>
 
+<br>
+
+<a class="btn" href="brochure.pdf" download>Download Brochure</a>
+
 </div>
 </div>
 </section>
 
-<section class="section">
+<section class="section" id="telugu">
 <div class="container">
+
 <h2>తెలుగు సమాచారం</h2>
 
-<div class="telugu">
+<div class="card">
 <p>
-శ్రీ శ్రీనివాస స్టోన్ క్రషర్స్ – చిమకూర్తి వద్ద ఉన్న మా యూనిట్ నుండి
-12mm, 20mm, 40mm మెటల్ మరియు ఎం-సాండ్ సరఫరా చేయబడుతుంది.
+శ్రీ శ్రీనివాస స్టోన్ క్రషర్స్ నుండి 12mm, 20mm, 40mm మెటల్,
+ఎం-సాండ్ మరియు క్రషర్ డస్ట్ సరఫరా చేయబడుతుంది.
 </p>
 
 <br>
 
 <p>
-📍 లొకేషన్: నంద్యాల – ఒంగోలు రోడ్, చిమకూర్తి, ప్రకాశం జిల్లా
+📍 నంద్యాల – ఒంగోలు రోడ్, చిమకూర్తి
 </p>
 
 <br>
 
 <p>
-📞 ఫోన్: +91 94949 03399
+📞 +91 94949 03399
 </p>
+
 </div>
 
 </div>
 </section>
 
 <footer>
-© 2026 Sri Srinivasa Stone Crushers | Chimakurthy
+© 2026 Sri Srinivasa Stone Crushers
 </footer>
 
 <a class="whatsapp" href="https://wa.me/919494903399" target="_blank">☎</a>
+
+<a class="callbtn" href="tel:+919494903399">📞</a>
+
+<script>
+window.onload=function(){
+setTimeout(function(){
+document.getElementById('loading').style.display='none';
+},1500);
+}
+
+function showTelugu(){
+document.getElementById('telugu').style.display='block';
+}
+
+function showEnglish(){
+document.getElementById('telugu').style.display='none';
+}
+</script>
 
 </body>
 </html>
