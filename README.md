@@ -18,9 +18,7 @@ ZOHO FORMS:
 1. Create form in Zoho Forms
 2. Replace the form action URL with your Zoho public form link
 
-WHATSAPP:
-Already connected to:
-+91 9494903399
+
 
 DEPLOYMENT:
 Upload files to:
